@@ -1,0 +1,6 @@
+To run the mvn wrapper via the terminal:
+
+1. Navigate to  Window > Show View > Other
+2. Under Terminal select Terminal and click ok
+3. Navigate to:C:\Users\lutzlemmer\workspace_spring_guru\spring5webapp>
+4. Run: mvnw spring-boot:run
