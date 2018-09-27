@@ -18,30 +18,25 @@ public class Publisher {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private int id;
-  private String firstNameP;
-  private String lastNameP;
+  private String name;
   private String postcode;
   private String city;
   private String street;
   private String houseNumber;
+  
   public int getId() {
     return id;
   }
   public void setId(int id) {
     this.id = id;
   }
-  public String getFirstNameP() {
-    return firstNameP;
+  public String getName() {
+    return name;
   }
-  public void setFirstNameP(String firstNameP) {
-    this.firstNameP = firstNameP;
+  public void setName(String name) {
+    this.name = name;
   }
-  public String getLastNameP() {
-    return lastNameP;
-  }
-  public void setLastNameP(String lastNameP) {
-    this.lastNameP = lastNameP;
-  }
+  
   public String getPostcode() {
     return postcode;
   }
